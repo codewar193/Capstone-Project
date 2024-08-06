@@ -1,0 +1,80 @@
+.card-container {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: space-between;  
+    }  
+    
+  .card {  
+    width: calc(33.33% - 20px);  
+    margin: 20px;  
+    border: 1px solid rgb(221, 238, 223);  
+    border-radius: 5px;  
+    padding: 10px;  
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  */
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;*/
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    text-align: center; 
+    font-size: small;
+  }  
+    
+  .card-title {  
+    font-size: 18px;  
+    font-weight: bold;  
+    margin-bottom: 10px;  
+  }  
+    
+  .card-text {  
+    margin-bottom: 5px;  
+  }  
+    
+  .card-link {  
+    display: inline-block;  
+    margin: 10px;  
+    color: rgb(45, 48, 45);
+    text-decoration: none;  
+  }  
+    
+  .card-link:hover {  
+    text-decoration: underline;  
+  }  
+    
+  .card-body {  
+    margin-bottom: 10px;  
+    
+  }  
+    
+  .card-body img {  
+    width: 80%;  
+    height: 190px!important;
+    cursor: pointer;  
+  }  
+    
+  .card-body video {  
+    width: 100%;  
+    height: auto;  
+  }  
+    
+  .enroll-button {  
+    display: block;  
+    width: 100%;  
+    background-color: rgb(221, 238, 223); 
+    color: #fff;  
+    border: none;  
+    border-radius: 5px;  
+    padding: 5px 10px;  
+    cursor: pointer;  
+    margin-top: 10px;  
+    margin-bottom: 10px;  
+  }  
+  
+    
+  .enroll-button:hover {  
+    background-color: #799a7c;  
+  }  
+  
+  .h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:2rem;
+  }
